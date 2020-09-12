@@ -47,6 +47,7 @@ class Song
     song_name = parts[1].gsub(".mp3", "")
     
     
+    
   end 
   
   def self.create_from_filename(filename) 
